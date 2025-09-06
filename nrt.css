@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/cb72daa5-bd8d-408b-b949-1eaef000c377/web/IN-en-20250825-TRIFECTA-perspective_a3209894-0b01-4ddb-b57e-f32165e20a3f_large.jpg');
+    background-repeat: no-repeat;
+    backdrop-filter: cover;
+}
+img{
+    padding-left:4em;
+    height:100px; 
+    width:100px;
+}
+.container{
+    border: 1px solid white;
+    height: 620px;
+    width: 550px;
+    margin: -100px 350px;
+    background-color:rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 18px black;
+    
+}
+.container h1{
+   padding-left: 50px;
+   
+}
+.container .input{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border:0.5px solid white;
+    border-radius: 5px;
+    width: 70%;
+    margin-left:50px;
+    color: white;
+}
+
+input::placeholder{
+    color:white;
+    font-size: 15px;
+}
+
+.btn1{
+    padding: 5px;
+    font-size: 10px;
+    margin-left: 50px;
+    width: 76%;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn2{
+    padding: 5px;
+    font-size: 10px;
+    margin-left: 50px;
+    width: 76%;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(152, 151, 151, 0.5);
+    color: white;
+    text-align: center;
+}
+
+.container .a{
+    padding-left: 190px;
+    color: white;
+}
+
+.container .a1{
+    color:whitesmoke;
+    /* text-decoration: none; */
+    
+}
+
+.con .h4{
+    text-align: start;
+}
+
+.con{
+    padding: 50px;
+}
+
+.btn1:hover{
+    background-color: rgb(192, 2, 2);
+    cursor: pointer;
+    box-shadow: 2px 2px 8px red;
+}
+
+.btn2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgb(104, 101, 101);
+}
+
+
+
